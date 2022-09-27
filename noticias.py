@@ -34,10 +34,10 @@ class Noticias():
                     print(f'Link: {lista_links[i]}')
 
             except:
-                print(emoji.emojize('Não consigo te apresentar os links :disappointed:\nDesculpa')) 
+                print(emoji.emojize('Não consigo te apresentar os links 😔\nDesculpa')) 
 
         else:
-            print(emoji.emojize(f'Minha requisição foi negada :disappointed:\nStatus: {resposta.status_code}'))
+            print(emoji.emojize(f'Minha requisição foi negada 😔\nStatus: {resposta.status_code}'))
 
 
     # Estadão
@@ -64,18 +64,18 @@ class Noticias():
                 for i in range(0, 3):
                     print(f'Link: {lista_links[i]}')
             except:
-                print(emoji.emojize('Não consigo te apresentar os links :disappointed:\nDesculpa'))
-                
+                print(emoji.emojize('Não consigo te apresentar os links 😔\nDesculpa'))
+
         else:
-            print(emoji.emojize(f'Minha requisição foi negada :disappointed:\nStatus: {resposta.status_code}'))
+            print(emoji.emojize(f'Minha requisição foi negada 😔\nStatus: {resposta.status_code}'))
 
     #Em Desenvolvimento:
 
     # R7
     def r7():
-        print(emoji.emojize(f'Esse site tá perguntando se eu sou um robô :disappointed:\nAguenta um pouquinho que eu vou enganar ele hehehe :smiling_imp:\nCaso queria acessar, está aqui o link: https://www.r7.com/'))
+        print(emoji.emojize(f'Esse site tá perguntando se eu sou um robô 😔\nAguenta um pouquinho que eu vou enganar ele hehehe :smiling_imp:\nCaso queria acessar, está aqui o link: https://www.r7.com/'))
 
     # Google Noticias
     def gn():
-        print(emoji.emojize(f'Esse site tá perguntando se eu sou um robô :disappointed:\nAguenta um pouquinho que eu vou enganar ele hehehe :smiling_imp:\nCaso queria acessar, está aqui o link: https://news.google.com/'))
+        print(emoji.emojize(f'Esse site tá perguntando se eu sou um robô 😔\nAguenta um pouquinho que eu vou enganar ele hehehe :smiling_imp:\nCaso queria acessar, está aqui o link: https://news.google.com/'))
 
