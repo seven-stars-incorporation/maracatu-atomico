@@ -1,4 +1,3 @@
 from noticias import Noticias
 
-print("Teste para POO\nNoticias do g1")
-Noticias.g1()
+print("Bem vindo ao.... MARACATU ATÔMICO\nUm script simples de raspagem de dados")
