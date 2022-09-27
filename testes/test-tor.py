@@ -1,5 +1,5 @@
-import requesocks 
-req = requesocks.session() 
+import requests 
+req = requests.session() 
 req.proxies = {'http': 'socks5://127.0.0.1:9050', 
     'https': 'socks5://127.0.0.1:9050'
     } 
