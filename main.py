@@ -1,3 +1,7 @@
-from noticias import Noticias
+# from noticias import Noticias
+from receitas import Receitas
 
-print("Bem vindo ao.... MARACATU ATÔMICO\nUm script simples de raspagem de dados")
+print("\nBem vindo ao.... MARACATU ATÔMICO. Um script simples de raspagem de dados")
+print("-="*37 + "\n")
+
+Receitas.geral()
